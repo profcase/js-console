@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<body>
+
+  <h1>JavaScript for super-fast programming!</h1>
+  <h3>Right-click / Inspect, then select console</h3>
+
+  <script>
+    console.log("SCRIPT START")
+
+    console.log("Declare constants.............................")
+
+    const a = 3
+    const b = 4
+
+    console.log("a=" + a)
+    console.log("b=" + b)
+
+    console.log("Declare functions..............................")
+
+    function add(x, y) {
+      return x + y
+    }
+    console.log("add=" + add)
+
+    console.log("Declare event listeners .......................")
+
+    document.addEventListener("click", function () {
+      console.log("add(a,b)=" + add(a, b))
+    })
+
+    console.log("Execute some logic ............................")
+
+    console.log("add(a,b)=" + add(a, b))
+
+    console.log("SCRIPT END")
+  </script>
+</body>
+
+</html>
