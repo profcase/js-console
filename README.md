@@ -19,4 +19,4 @@
 
 ## See Also
 
-- [More App Examples](https://github.com/profcase/web-apps-list)
+- [More App Examples](https://profcase.github.io/web-apps-list/)
